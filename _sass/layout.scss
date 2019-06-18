@@ -276,8 +276,8 @@ footer {
 	padding-bottom: 105px;
 }
 
-.footer-links {
-  padding: 0 0 16px 0;
+.footer {
+  padding: 0 0 8px 0;
 
   a {
     color: $background-color;
@@ -288,4 +288,14 @@ footer {
       color: darken($background-color, 20%);
     }
   }
+}
+
+/* Mailchimp Form */
+#mc_embed_signup {
+  padding-bottom: 8px;
+  padding-top: 8px;
+}
+
+#mc-embedded-wrap-subscribe {
+  padding-left: 4px;
 }

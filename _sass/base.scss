@@ -67,3 +67,14 @@ a {
   vertical-align: text-bottom;
   box-sizing: content-box;
 }
+
+/*- Buttons -*/
+.btn {
+  border: 2px solid $background-color;
+  background-color: $main-color;
+  color: $background-color;
+  padding: 2px 4px;
+  font-size: 12px;
+  cursor: pointer;
+  border-radius: 5px;
+}
